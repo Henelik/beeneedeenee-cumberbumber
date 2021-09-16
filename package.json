@@ -1,0 +1,31 @@
+{
+  "name": "beeneedeenee-cumberbumber",
+  "description": "A Browser extension to replace instances of the name 'Benedict Cumberbatch'",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "web-ext build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Henelik/beeneedeenee-cumberbumber.git"
+  },
+  "keywords": [
+    "leisure", "fun", "actor"
+  ],
+  "author": "Kelyn Crandall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Henelik/beeneedeenee-cumberbumber"
+  },
+  "homepage": "https://github.com/Henelik/beeneedeenee-cumberbumber#readme",
+  "webExt": {
+    "verbose": true,
+    "build": {
+      "overwriteDest": true
+    },
+    "ignoreFiles": [
+      "package.json",
+      "README.md"
+    ]
+  }
+}
